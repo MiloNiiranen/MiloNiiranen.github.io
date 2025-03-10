@@ -1,5 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
+/* Varmista, että koko sivu täyttää näytön */
+html, body {
+    height: 100%;                /* Täyttää koko näytön korkeuden */
+    margin: 0;                   /* Poistaa oletusmarginaalit */
+    padding: 0;                  /* Poistaa oletusvälin */
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
     text-align: center;
-    background-color: #f4f4f4;
+}
+
+#Minusta h2{
+ text-align: center;
+}
+
+
+#Minusta {                 
+    padding: 20px;      /* Lisää tilaa reunoille */
+    background-color: #ebe4e4; /* Kevyt taustaväri */
+    border-radius: 10px; /* Pyöristetyt reunat */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Kevyt varjo */
+    max-width: 600px; 
+    text-align: left;
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+#Projektini {
+    padding: 20px;      /* Lisää tilaa reunoille */
+    background-color: #ebe4e4; /* Kevyt taustaväri */
+    border-radius: 10px; /* Pyöristetyt reunat */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Kevyt varjo */
+    max-width: 600px; 
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+#Projektini h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;      /* Tummanharmaa taustaväri */
+    color: white;                /* Valkoinen teksti */
+    text-align: center;          /* Keskittää tekstin */
+    padding: 20px 0;             /* Lisää tilaa ylös ja alas */
+    font-size: 14px;             /* Pienempi fonttikoko */
+    width: 100%;                 /* Täyttää koko leveyden */
+    box-sizing: border-box;      /* Sisällyttää paddingin ja borderin kokoon */
+    margin-top: auto;            /* Varmistaa, että footer menee aina sivun loppuun */
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style-type: none;       /* Poistaa listan luettelomerkit */
+    padding: 0;                  /* Poistaa sisäiset marginaalit */
+    margin: 0;                   /* Poistaa ulkoiset marginaalit */
+}
+
+footer li {
+    display: inline-block;       /* Tekstirivit vierekkäin */
+    margin: 0 15px;              /* Lisää tilaa rivien väliin */
+}
+
+footer a {
+    color: #f4f4f4;              /* Vaaleanharmaa linkkiväri */
+    text-decoration: none;       /* Poistaa linkin alleviivaamisen */
+}
+
+footer a:hover {
+    color: #1e90ff;              /* Linkin väri muuttuu siniseksi hover-tilassa */
 }
